@@ -1,4 +1,4 @@
-### Hi, I am Md. Suruj Miah 👋
+### Hi 👋, I am Md. Suruj Miah
 
 ```javascript
 import SoftwareDeveloper from 'suruj';
