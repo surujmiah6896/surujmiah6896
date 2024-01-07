@@ -2,7 +2,7 @@
 
 ```javascript
 import SoftwareDeveloper from 'suruj';
-import { Languages, Frameworks } from 'suruj/skills';
+import { Languages, Frameworks, Databases } from 'suruj/skills';
 
 class Bio extends SoftwareDeveloper {
   name     = 'Md. Suruj Miah';
@@ -16,7 +16,6 @@ class Skills extends SoftwareDeveloper {
   languages  = ['PHP', 'JavaScript', 'TypeScript', ...Languages];
   databases  = ['MySQL', 'PostgreSQL', ...Databases];
   frameworks = ['Laravel', 'Vue', ...Frameworks];
-  others = ['git', 'github', ...Others];
 }
 ```
 
