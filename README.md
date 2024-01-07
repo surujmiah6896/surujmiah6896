@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, I am Md. Suruj Miah 👋
 
 ```javascript
 import SoftwareDeveloper from 'suruj';
@@ -7,6 +7,8 @@ import { Languages, Frameworks } from 'suruj/skills';
 class Bio extends SoftwareDeveloper {
   name     = 'Md. Suruj Miah';
   title    = 'Software Developer';
+  phone    = '01731-364148';
+  email    = 'surujmiah6896@gmail.com';
   location = 'Bank Colony, Savar, Dhaka';
 }
 
