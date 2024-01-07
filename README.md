@@ -1,19 +1,20 @@
 ### Hi there 👋
 
 ```javascript
-import SoftwareDeveloper from 'munafio';
-import { Languages, Frameworks } from 'munafio/skills';
+import SoftwareDeveloper from 'suruj';
+import { Languages, Frameworks } from 'suruj/skills';
 
 class Bio extends SoftwareDeveloper {
-  name     = 'Munaf Aqeel Mahdi';
-  title    = 'Senior Software Developer';
-  location = 'Babil, IQ';
+  name     = 'Md. Suruj Miah';
+  title    = 'Software Developer';
+  location = 'Bank Colony, Savar, Dhaka';
 }
 
 class Skills extends SoftwareDeveloper {
-  languages  = ['JavaScript', 'TypeScript', 'PHP', ...Languages];
-  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
-  frameworks = ['Vue', 'React', 'Next.js', 'Laravel', 'Nest.js', ...Frameworks];
+  languages  = ['PHP', 'JavaScript', 'TypeScript', ...Languages];
+  databases  = ['MySQL', 'PostgreSQL' ...Databases];
+  frameworks = ['Laravel', 'Vue', ...Frameworks];
+  others = ['git', 'github', ...Others];
 }
 ```
 
