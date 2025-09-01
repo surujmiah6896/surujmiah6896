@@ -2,7 +2,7 @@
 
 ```javascript
 import SoftwareDeveloper from 'suruj';
-import { Languages, Frameworks, Libraries, Databases } from 'suruj/skills';
+import { Languages, Frameworks, Libraries, CreateAPI, Databases } from 'suruj/skills';
 
 class Bio extends SoftwareDeveloper {
   name     = 'Md. Suruj Miah';
@@ -17,7 +17,7 @@ class Skills extends SoftwareDeveloper {
   databases  =  ['MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', ...Databases];
   frameworks =  ['Laravel', 'Next.js', ...Frameworks];
   libraries  =  ['React.js', 'Vue.js', 'Inertia.js', ...Libraries];
-  api        =  ['RestAPI', 'GraphQL', ....];
+  api        =  ['RestAPI', 'GraphQL', ...CreateAPI];
   others     =  ['Git', 'Github', 'Docker', 'Prisma', 'Postman', ...Others];
 }
 ```
