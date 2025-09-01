@@ -17,6 +17,7 @@ class Skills extends SoftwareDeveloper {
   databases  =  ['MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', ...Databases];
   frameworks =  ['Laravel', 'Next.js', ...Frameworks];
   libraries  =  ['React.js', 'Vue.js', 'Inertia.js', ...Libraries];
+  api        =  ['RestAPI', 'GraphQL', ....];
   others     =  ['Git', 'Github', 'Docker', 'Prisma', 'Postman', ...Others];
 }
 ```
